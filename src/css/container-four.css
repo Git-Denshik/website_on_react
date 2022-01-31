@@ -1,0 +1,30 @@
+.button-bg {
+    background: #212A38;
+    border: 1px solid #212A38;
+}
+
+.button-bg:hover {
+    transition: .5s;
+    background: #324055;
+    border: 1px solid #303d52;
+}
+
+.wrap-img {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.wrap-ite__item--top {
+    margin-top: 150px;
+}
+
+.body-width {
+    width: 600px;
+}
+
+.body-padding {
+    padding-bottom: 0;
+}

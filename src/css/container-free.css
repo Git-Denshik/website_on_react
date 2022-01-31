@@ -1,0 +1,14 @@
+.container-free {
+    padding-bottom: 70px;
+}
+
+.WrapperLogo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.WrapperLogo__item {
+    margin-right: 20px;
+}

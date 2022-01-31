@@ -43,3 +43,9 @@
     font-weight: 700;
     font-size: 28px;
 }
+.card-group__item:hover {
+    transition: .5s;
+    background: #344155;
+    transform: scale(1.1);
+    cursor: pointer;
+} 
