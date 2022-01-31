@@ -1,0 +1,45 @@
+.bg-home {
+    background-color: #11161E;
+    color: white;
+    font-size: 20px;
+}
+
+.hero-top {
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 62px;
+    margin-top: 46px;
+    font-weight: bold;
+    line-height: 1.1;
+    padding-bottom: 50px;
+}
+
+.text {
+    font-size: 26px;
+    color: #6A7C95;
+    line-height: 1.3;
+    padding-bottom: 40px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    padding-top: 78px;
+    padding-bottom: 64px;
+}
+
+.link-hero {
+    text-decoration: none;
+    color: #76869F;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.link-hero:hover {
+    transition: .5s;
+    color: white;
+}
+.marg-left {
+    margin-left: 25px;
+}
