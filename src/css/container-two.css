@@ -19,6 +19,7 @@
 
 .card-group {
     display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -49,3 +50,17 @@
     transform: scale(1.1);
     cursor: pointer;
 } 
+
+@media(max-width:768px) {
+    .card-group__item {
+        flex-basis: 250px;
+    }
+}
+@media(max-width:576px) {
+    .card-group__item {
+        flex-basis: 96%;
+        margin-bottom: 12px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}

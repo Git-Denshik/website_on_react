@@ -16,7 +16,7 @@ export default class Header extends Component {
                     <Container>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
-                            <Nav className="mx-auto">
+                            <Nav>
                                 <Nav.Link href="/"> Главная </Nav.Link>
                                 <Nav.Link href="/tarif"> Тариф </Nav.Link>
                                 <Nav.Link href="/contacts"> Контакты </Nav.Link>
@@ -25,7 +25,7 @@ export default class Header extends Component {
                         <Navbar.Brand href="/">
                             <img
                                 src={logo}
-                                className='top'
+                                className='m-auto top'
                                 width="20"
                                 height="30"
                                 alt="logo"

@@ -13,6 +13,7 @@ import ImgSix from '../img/ImgFree.png'
 import ImgSeven from '../img/X5.png'
 import ImgEig from '../img/X6.png'
 import Social from '../img/social.png'
+import logo from '../img/logo.png'
 
 export default class Home extends Component {
     render() {
@@ -23,7 +24,7 @@ export default class Home extends Component {
                         <Row className='m-auto'>
                             <Col lg={6}>
                                 <h1 className='title'>Современное решение рутинных задач бизнеса</h1>
-                                <p className='text'>Создай свою страницу сайта и начни принимать оплаты в 1 клик</p>
+                                <p className='text' id="text-modile">Создай свою страницу сайта и начни принимать оплаты в 1 клик</p>
                                 <Button variant='success '>Создать страницу</Button>
                                 <div className='phone'>
                                     <img
@@ -134,7 +135,7 @@ export default class Home extends Component {
                         <Row>
                             <Col lg={6}>
                                 <h1 className='title'>Удобство</h1>
-                                <p className='text body-width'>
+                                <p className='text body-width' id="text-modile">
                                     Создавайте индивидуальный дизайн страницы. Фантазируйте и
                                     вооплощайте задуманное в реальность. Удобный и понтный
                                     интерфейс не затруднит работу с сервисом
@@ -146,6 +147,7 @@ export default class Home extends Component {
                                     <li className='wrap-ite__item wrap-ite__item--top'>
                                         <img
                                             src={ImgEig}
+                                            width="100%"
                                             alt=''
                                         />
                                     </li>
@@ -225,8 +227,31 @@ export default class Home extends Component {
                             </p>
                             <img 
                             src={Social}
-                            className='img-container'
+                            id='img-container'
                             />
+                        </Row>
+                    </Container>
+                </div>
+
+                <div className='bg-home footer'>
+                    <Container>
+                        <Row>
+                            <Col xl={4}>
+                            <p>Политика конфедациальности</p>
+                            </Col>
+                            <Col xl={4}>
+                            <ul className='wrapper-footer'>
+                                <li className='wrapper-footer__item'>
+                                    <img  
+                                    src={logo}
+                                    />
+                                    <p>© TOO “Дару Линк” все права защищены</p>
+                                </li>
+                            </ul>
+                            </Col>
+                            <Col xl={4}>
+                            <p>Пользовательское соглашение</p>
+                            </Col>
                         </Row>
                     </Container>
                 </div>

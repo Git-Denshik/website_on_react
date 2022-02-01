@@ -1,0 +1,21 @@
+.footer {
+    color: #2D3746;
+    font-size: 16px;
+}
+
+.wrapper-footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper-footer__item {
+    display: flex;
+    align-items: center;
+    flex-basis: 250px;
+}
+
+.wrapper-footer__item img {
+    margin-right: 20px;
+}
